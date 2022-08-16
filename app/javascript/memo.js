@@ -8,7 +8,7 @@ function post (){
     XHR.open("POST", "/posts", true);
     XHR.responseType = "json";
     XHR.send(formData);
-    });
+  });
 };
 
-window.addEventListener('load',post)
+window.addEventListener('load', post);
